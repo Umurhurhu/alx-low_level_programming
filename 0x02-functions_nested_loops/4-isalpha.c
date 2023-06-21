@@ -4,22 +4,14 @@
  * @c: The character to print
  * Return: 1 if true, otherwise return 0
  */
+
 int _isalpha(int c)
 {
-	char i, d;
+	char i;
 
-	if (i >= 'a' && i <= 'z')
+	if ((i >= 65 && i <= 97) || (i >= 97 && i <= 122))
 	{
 		return (1);
 	}
-	{
-		if (d >= 'A' && <= 'Z')
-		{
-			return (1);
-		}
-		else
-		{
-			return (0);
-		}
-	}
+	return (0);
 }
