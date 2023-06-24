@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * Print_numbers - check the code
+ * print_numbers - check the code
  * Return: 0 (success)
  */
 void print_numbers(void)
