@@ -3,7 +3,7 @@
 /**
  * main - print the number of argument passed
  * @argc: number of argument
- * @agrv: array of argument
+ * @argv: array of argument
  * Return: 0 (success)
  */
 int main(int argc, char *argv[])
